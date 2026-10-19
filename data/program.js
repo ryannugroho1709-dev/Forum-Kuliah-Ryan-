@@ -59,7 +59,20 @@
             penulis: null,
             dosen: { id: "Syaikh Mushthafa Farhat", ar: "الشيخ مصطفى فرحات" },
             kanal: tg(48), lengkap: tg(601),
-            tautan: links([48, 84, 120, 158, 194, 234, 270, 306, 345, 381, 418, 454, 492, 528, 564, 596])
+            tautan: links([48, 84, 120, 158, 194, 234, 270, 306, 345, 381, 418, 454, 492, 528, 564, 596]),
+            tentang: {
+              id: "Ringkasan (*mukhtashar*) yang memetakan **18 bab pokok Ulumul Qur'an**: wahyu, turunnya Al-Qur'an, makki–madani, asbab an-nuzul, pengumpulan dan penyusunan mushaf, muhkam–mutasyabih, 'amm–khashsh, nasikh–mansukh, muthlaq–muqayyad, manthuq–mafhum, i'jaz, amtsal, aqsam, jadal, qashash, terjemah Al-Qur'an, israiliyyat, dan ushul tafsir. Kitab disusun dalam bentuk **dhabit-dhabit** (kaidah ringkas) yang dihafal, lalu Syaikh Mushthafa Farhat menjelaskan tiap dhabit dengan dalil, contoh, dan perbedaan pendapat ulama.",
+              ar: "مختصر يرسم خريطة أبواب علوم القرآن الثمانية عشر: الوحي، ونزول القرآن، والمكي والمدني، وأسباب النزول، وجمع القرآن وترتيبه، والمحكم والمتشابه، والعام والخاص، والناسخ والمنسوخ، والمطلق والمقيد، والمنطوق والمفهوم، والإعجاز، والأمثال، والأقسام، والجدل، والقصص، وترجمة القرآن، والإسرائيليات، وأصول التفسير؛ مصوغٌ في ضوابط مختصرة يشرحها الشيخ بالأدلة والأمثلة وأقوال العلماء."
+            },
+            bab: [
+              { id: "Muqaddimah & peta 18 bab", ar: "المقدمة وخريطة الأبواب", dari: 1, sampai: 2 },
+              { id: "Al-Wahy & Nuzul al-Qur'an", ar: "الوحي ونزول القرآن", dari: 3, sampai: 4 },
+              { id: "Makki–Madani & Asbab an-Nuzul", ar: "المكي والمدني وأسباب النزول", dari: 5, sampai: 6 },
+              { id: "Jam' al-Qur'an & Muhkam–Mutasyabih", ar: "جمع القرآن والمحكم والمتشابه", dari: 7, sampai: 8 },
+              { id: "'Amm–Khashsh, Naskh, Muthlaq & Manthuq", ar: "العام والخاص والنسخ والمطلق والمنطوق", dari: 9, sampai: 11 },
+              { id: "I'jaz, Amtsal & Aqsam", ar: "الإعجاز والأمثال والأقسام", dari: 12, sampai: 14 },
+              { id: "Jidal, Qashash, Tarjamah, Israiliyyat & Ushul Tafsir", ar: "الجدل والقصص والترجمة والإسرائيليات وأصول التفسير", dari: 15, sampai: 16 }
+            ]
           },
           {
             id: "ushul-tafsir", hari: 1, ikon: "ushul", tema: 7, motif: "akar", warna: "Kahrab", jumlah: 16,
@@ -92,7 +105,22 @@
             penulis: { id: "Imam Ibnul Jauzi (w. 597 H)", ar: "الإمام ابن الجوزي (ت ٥٩٧هـ)" },
             dosen: { id: "Syaikh Dr. Nur Sya'lan", ar: "الشيخ الدكتور نور شعلان" },
             kanal: tg(60), lengkap: tg(617),
-            tautan: links([60, 96, 132, 170, 208, 246, 282, 318, 357, 393, 430, 466, 504, 540, 576, 612])
+            tautan: links([60, 96, 132, 170, 208, 246, 282, 318, 357, 393, 430, 466, 504, 540, 576, 612]),
+            tentang: {
+              id: "Kitab ini menghimpun **kajian naskh dalam Al-Qur'an** oleh Imam Ibnul Jauzi. Dua bagian utamanya: **bab-bab teori** (kebolehan naskh, bedanya dengan bada', hakikat dan syarat naskh, naskh Al-Qur'an dengan Sunnah, keutamaan ilmu ini) lalu **pembahasan 247 permasalahan dari 62 surah** yang diklaim mansukh, disusun menurut urutan mushaf. Dalam kuliah ini Dr. Nur Sya'lan menimbang setiap klaim: apakah benar ada pertentangan, adakah jalan *jam'* (kompromi), dan siapa yang berpendapat apa — sehingga mahasiswa belajar sikap ilmiah, bukan sekadar daftar ayat.",
+              ar: "يجمع الكتاب بحث النسخ في القرآن للإمام ابن الجوزي: أبواب نظرية (جواز النسخ، الفرق بينه وبين البداء، حقيقته وشروطه، نسخ القرآن بالسنة، فضل هذا العلم)، ثم مناقشة سبع وأربعين ومائتي قضية من اثنتين وستين سورة ادُّعي فيها النسخ، مرتبةً على ترتيب المصحف، مع بيان وجه الجمع وأقوال العلماء."
+            },
+            tentangPenulis: {
+              id: "Abul Faraj 'Abdurrahman bin 'Ali Ibnul Jauzi (w. 597 H) adalah ulama besar Baghdad bermazhab Hanbali — hafizh, mufassir, ahli hadits, sejarawan, dan penceramah — yang menulis ratusan karya, di antaranya *Zadul Masir* (tafsir) dan *Nawasikh al-Qur'an*. *(Silakan lengkapi biografi resmi bila diperlukan.)*",
+              ar: "أبو الفرج عبد الرحمن بن علي ابن الجوزي (ت ٥٩٧هـ)، من أعلام بغداد وفقهاء الحنابلة، مفسر ومحدث ومؤرخ وواعظ، له مئات المصنفات منها «زاد المسير» و«نواسخ القرآن»."
+            },
+            bab: [
+              { id: "Muqaddimah & hakikat naskh", ar: "المقدمة وحقيقة النسخ", dari: 1, sampai: 3 },
+              { id: "Ayat yang diklaim mansukh: Al-Baqarah", ar: "الآيات المدعى نسخها: سورة البقرة", dari: 4, sampai: 8 },
+              { id: "Ali 'Imran & An-Nisa'", ar: "سورتا آل عمران والنساء", dari: 9, sampai: 10 },
+              { id: "Al-Ma'idah hingga Al-Mu'minun", ar: "من المائدة إلى المؤمنون", dari: 11, sampai: 13 },
+              { id: "An-Nur hingga akhir kitab", ar: "من النور إلى آخر الكتاب", dari: 14, sampai: 16 }
+            ]
           },
           {
             id: "tajwid", hari: 3, ikon: "makhraj", tema: 2, motif: "kalam", motifOpt: { big: "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا", lbl: "أحكام التجويد" }, warna: "Firuz", jumlah: 14,

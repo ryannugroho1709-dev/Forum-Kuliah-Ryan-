@@ -180,8 +180,8 @@ Kuliah.pertemuan("nasikh-mansukh", {
       { a: { id: "An-Nisa': 93", ar: "النساء ٩٣" }, b: { id: "Pembunuh mukmin sengaja; makna 'kekal'", ar: "الخلود" } },
       { a: { id: "Al-Ma'idah: 5", ar: "المائدة ٥" }, b: { id: "Makanan Ahlul Kitab halal dengan nama Allah", ar: "طعام أهل الكتاب" } }
     ],
-    urut: { t: { id: "Urutkan tahapan pengharaman khamr menurut penjelasan dosen.", ar: "رتب مراحل تحريم الخمر عند الشيخ." },
-      item: [{ id: "Khamr pada mulanya dibolehkan", ar: "الإباحة" }, { id: "Dilarang shalat dalam keadaan mabuk (An-Nisa': 43)", ar: "لا تقربوا الصلاة وأنتم سكارى" }, { id: "Perintah menjauhi khamr sepenuhnya (Al-Ma'idah: 90)", ar: "فاجتنبوه" }] },
+    urut: { t: { id: "Urutkan ayat An-Nisa' berikut sesuai urutan pembahasan dosen.", ar: "رتب آيات النساء حسب ترتيب الشيخ." },
+      item: [{ id: "An-Nisa': 33 (mu'aqadah)", ar: "النساء ٣٣" }, { id: "An-Nisa': 43 (mabuk dan shalat)", ar: "النساء ٤٣" }, { id: "An-Nisa': 64 (memohon ampun di sisi Rasul)", ar: "النساء ٦٤" }, { id: "An-Nisa': 71 (bersiap dan berangkat perang)", ar: "النساء ٧١" }, { id: "An-Nisa': 93 (pembunuh mukmin sengaja)", ar: "النساء ٩٣" }] },
     isian: [
       { t: { id: "Pada An-Nisa': 90, ayat mengecualikan mereka yang bergabung dengan kaum yang terikat ______ dengan kaum muslimin.", ar: "الذين يصلون إلى قوم بينكم وبينهم ______." }, j: { id: "perjanjian (mitsaq)", ar: "ميثاق" }, x: [{ id: "perang", ar: "قتال" }, { id: "zakat", ar: "زكاة" }, { id: "hijrah", ar: "هجرة" }] },
       { t: { id: "An-Nisa': 93 diklaim mansukh oleh ayat yang menyatakan Allah ______ dosa selain syirik.", ar: "آية النساء ٩٣ ادُّعي نسخها بآية {يغفر ما دون ذلك} أي ______." }, j: { id: "mengampuni", ar: "يغفر" }, x: [{ id: "mencatat", ar: "يكتب" }, { id: "menghisab", ar: "يحاسب" }, { id: "menahan", ar: "يحبس" }] },

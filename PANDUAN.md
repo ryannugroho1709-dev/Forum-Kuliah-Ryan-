@@ -114,7 +114,7 @@ backsoundFiles: [{ id: "murattal", label: "Murattal", icon: "quran", file: "asse
 1. `node tools/build-dist.js` → folder `dist/`.
 2. Klik dua kali `tools/terbitkan.cmd` untuk mengunggah ke **Cloudflare Pages** (proyek `forum-kuliah-uq`; login Cloudflare sekali).
    Alternatif: seret isi folder `dist/` ke Cloudflare Pages / Netlify secara manual.
-3. Setelah memperbarui materi, ubah `CACHE = "forum-kuliah-v1"` di `sw.js` menjadi `v2`, `v3`, … agar HP mahasiswa mengambil versi terbaru.
+3. Setelah memperbarui materi, ubah `CACHE = "forum-kuliah-v3"` di `sw.js` menjadi `v2`, `v3`, … agar HP mahasiswa mengambil versi terbaru.
 
 ## 8. Yang perlu diperiksa
 
