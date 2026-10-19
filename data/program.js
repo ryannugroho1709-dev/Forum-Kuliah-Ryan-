@@ -129,7 +129,19 @@
             penulis: null,
             dosen: { id: "Syaikh Muhammad asy-Syuqairi", ar: "الشيخ محمد الشقيري" },
             kanal: tg(66), lengkap: tg(620),
-            tautan: links([66, 102, 140, 176, 214, 252, 288, 324, 363, 399, 436, 473, 510, 546])
+            tautan: links([66, 102, 140, 176, 214, 252, 288, 324, 363, 399, 436, 473, 510, 546]),
+            tentang: {
+              id: "Kuliah tajwid **teori dan praktik** yang berjalan dari dasar ke lanjutan: mukadimah, isti'adzah dan basmalah; **hukum nun sukun, tanwin, mim sukun, dan lam sukun**; **bab mad**; **makharij** (lima makhraj umum, tujuh belas makhraj khusus) dan **sifat huruf**; hubungan antarhuruf, **tafkhim dan tarqiq**; **waqaf dan ibtida'**; lalu kaidah rasm mushaf: **maqthu' wal-mawshul, ta'at, hamzat al-washl, serta hadzf dan itsbat**. Tiap hukum diajarkan dengan definisi, sebab, cabang, dan contoh ayat berharakat lengkap.",
+              ar: "مادة تجويد علمية تطبيقية متدرجة: مقدمة علم التجويد والاستعاذة والبسملة، وأحكام النون الساكنة والتنوين والميم الساكنة واللام الساكنة، وباب المدود، ومخارج الحروف وصفاتها، والعلاقات بين الحروف، والتفخيم والترقيق، والوقف والابتداء، ثم أحكام الرسم: المقطوع والموصول، والتاءات، وهمزة الوصل، والحذف والإثبات؛ مع الأمثلة القرآنية."
+            },
+            bab: [
+              { id: "Mukadimah & hukum nun, mim, lam sukun", ar: "المقدمة وأحكام النون والميم واللام الساكنة", dari: 1, sampai: 2 },
+              { id: "Bab Al-Mudud", ar: "باب المدود", dari: 3, sampai: 3 },
+              { id: "Makharij & sifat huruf", ar: "مخارج الحروف وصفاتها", dari: 4, sampai: 5 },
+              { id: "Hubungan huruf, tafkhim, tarqiq & dua sukun", ar: "العلاقات بين الحروف والتفخيم والترقيق والتقاء الساكنين", dari: 6, sampai: 8 },
+              { id: "Waqaf & ibtida'", ar: "الوقف والابتداء", dari: 9, sampai: 10 },
+              { id: "Kaidah rasm: maqthu', ta'at, hamzah, hadzf", ar: "أحكام الرسم: المقطوع والتاءات والهمزة والحذف", dari: 11, sampai: 14 }
+            ]
           },
           {
             id: "nahwu", hari: 4, ikon: "harakat", tema: 6, motif: "harakat", motifOpt: { lbl: "النحو تأسيسٌ وتطبيقٌ" }, warna: "Yaqut", jumlah: 16,
